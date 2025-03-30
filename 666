@@ -1,0 +1,8 @@
+library("pheatmap")
+library("corrplot")
+getwd()
+
+#import data
+al<-read.csv("CHEF.csv")
+head(al)
+
